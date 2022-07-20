@@ -1,5 +1,5 @@
-var m = 2;
-var tamanho = 20;
+var m = 6;
+var tamanho = 10;
 
 
 console.log(`TABUADA DO ${m}`)
