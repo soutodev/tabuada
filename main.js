@@ -8,13 +8,9 @@ button.addEventListener("click", () => {
 
     if(Number(valor.value) < 1 || Number(valor.value) > 12){        
 
-        tabuada.innerHTML = "Insira um valor no intervalo de 1 a 12"
+        tabuada.innerHTML = "INSIRA UM VALOR ENTRE 1 E 12"
 
     }else{
-
-        /* A variável i = 1 porque é onde vai começar a nossa tabuada, logo em seguida 
-            i <= 12 porque é onde termina a nossa tabuada
-        */
 
         for(i = 1; i <= 12; i++){
 

@@ -7,6 +7,11 @@
 body {
     background-color: slateblue;
     font-family: monospace;
+
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .container {
@@ -15,22 +20,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2rem;
-    margin: 3rem;
-    min-width: 400px;
+    padding: 3rem;
     border-radius: 5px;
     place-items: center;
 }
 
 .container h1 {
-    border-bottom: 1px solid slateblue;
+    border-bottom: 1px solid #59bdcd;
 }
 
 .container input {
     margin: 0.5rem 0;
     border: none;
-    background-color: slateblue;
-    color: whitesmoke;
+    background-color: #59bdcd;
+    color: black;
+    font-weight: bolder;
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
     text-align: center;
@@ -49,7 +53,7 @@ div.container input::-webkit-inner-spin-button{
 
 .btn-calcular {
     padding: 0.8rem 1.5rem;
-    background-color: slateblue;
+    background-color: #59bdcd;
     color: whitesmoke;
     font-weight: bolder;
     border: none;
@@ -61,5 +65,5 @@ div.container input::-webkit-inner-spin-button{
 
 .btn-calcular:hover {
     transition: .5s;
-    background-color: rgb(68, 58, 134);
+    background-color: slateblue;
 }
