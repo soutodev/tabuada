@@ -17,6 +17,49 @@ body {
     flex-direction: column;
     padding: 2rem;
     margin: 3rem;
-    min-width: 500px;
+    min-width: 400px;
     border-radius: 5px;
+    place-items: center;
+}
+
+.container h1 {
+    border-bottom: 1px solid slateblue;
+}
+
+.container input {
+    margin: 0.5rem 0;
+    border: none;
+    background-color: slateblue;
+    color: whitesmoke;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    width: 5rem;
+}
+
+div.container input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.tabuada {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.btn-calcular {
+    padding: 0.8rem 1.5rem;
+    background-color: slateblue;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    
+}
+
+
+.btn-calcular:hover {
+    transition: .5s;
+    background-color: rgb(68, 58, 134);
 }
