@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: slateblue;
+    background-color: #59bdcd;
     font-family: monospace;
 
     width: 100%;
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 5px;
     place-items: center;
 }
@@ -39,7 +39,14 @@ body {
     font-size: 1rem;
     text-align: center;
     border-radius: 5px;
-    width: 5rem;
+    width: 9rem;
+}
+
+.container input::placeholder {
+    font-size: 1rem;
+    color: #4395a1;
+    text-align: center;
+    font-weight: lighter;
 }
 
 div.container input::-webkit-inner-spin-button{

@@ -1,20 +1,21 @@
 const button = document.querySelector("div.container button")
 var tabuada = document.querySelector("div.container div.tabuada")
-var valor = document.querySelector("div.container input")
+var multiply = document.getElementById("multiply")
+var tabLength = document.getElementById("tabLength")
 
 button.addEventListener("click", () => {
 
     tabuada.innerHTML = ""
 
-    if(Number(valor.value) < 1 || Number(valor.value) > 12){        
+    if(Number(multiply.value) < 1 ){        
 
-        tabuada.innerHTML = "INSIRA UM VALOR ENTRE 1 E 12"
+        tabuada.innerHTML = "INSIRA UM VALOR A PARTIR DE 1"
 
     }else{
 
-        for(i = 1; i <= 12; i++){
+        for(i = 1; i <= Number(tabLength.value); i++){
 
-            var calc = String(i) + " x " + valor.value + " = " + i * Number(valor.value);
+            var calc = String(i) + " x " + multiply.value + " = " + i * Number(multiply.value);
 
             var resultado = document.createElement("p")
 
